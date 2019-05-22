@@ -25,7 +25,7 @@ class Student
     phy = in.nextInt();
     eng = in.nextInt();
     
-    System.out.println("Enter the no. of the backlogs left {sachi sachi batana koi fark nhi padta apun bhi engineer hai}");
+    System.out.println("Enter the no. of the backlogs left ");
     back = in.nextInt();
     
     
@@ -77,10 +77,6 @@ public class Main
     al.add(s);
     }
     
-    System.out.println("The students who are recommended for interview:");
-    for (int i=0; i<n-1 ;i++)
-    {
-        System.out.println(al.get(i).toString());
-    }
+
   }
 }
